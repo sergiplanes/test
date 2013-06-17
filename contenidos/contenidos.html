@@ -12,27 +12,13 @@
     <link rel="stylesheet" type="text/css" href="javascript.css" />
     <link rel="stylesheet" type="text/css" href="aside.css" />
     <link rel="stylesheet" type="text/css" href="footer.css" />
-	<!-- Estilos del slider -->
-    <link href="css/styles.css" type="text/css" media="all" rel="stylesheet" />
-	<!-- Skitter JS -->
-	<script type="text/javascript" language="javascript" src="/slide/js/jquery-1.6.3.min.js"></script>
-	<script type="text/javascript" language="javascript" src="/slide/js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" language="javascript" src="/slide/js/jquery.animate-colors-min.js"></script>
-	<script type="text/javascript" language="javascript" src="/slide/js/jquery.skitter.min.js"></script>
-	
-	<!-- Init Skitter -->
-	<script type="text/javascript" language="javascript">
-		$(document).ready(function() {
-			$('.box_skitter_large').skitter({
-				theme: 'clean',
-				numbers_align: 'center',
-				progressbar: true, 
-				dots: true, 
-				preview: true
-			});
-		});
-	</script>
-</head>
+
+ <link type="text/css" href="css/skitter.styles.css" media="all" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+<script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+
 <title>Documento sin título</title>
 </head>
 
@@ -80,21 +66,33 @@
 <!-- comienzo de la seccion principal -->
 <section class="1">
 <div id="slider">
-<h1>Skitter - Slideshow for anytime!</h1>
-		<div id="content">
-			<div class="border_box">
-				<div class="box_skitter box_skitter_large">
-					<ul>
-						<li><a href="#cube"><img src="images/example/001.jpg" class="cube" /></a><div class="label_text"><p>cube</p></div></li>
-						<li><a href="#cubeRandom"><img src="images/example/002.jpg" class="cubeRandom" /></a><div class="label_text"><p>cubeRandom</p></div></li>
-						<li><a href="#block"><img src="images/example/003.jpg" class="block" /></a><div class="label_text"><p>block</p></div></li>
-						<li><a href="#cubeStop"><img src="images/example/004.jpg" class="cubeStop" /></a><div class="label_text"><p>cubeStop</p></div></li>	
-					</ul>
-				</div>
-			</div>
-		</div>
-		<h2>Enjoy! =D</h2>
-		<h3><a href="http://www.skitter-slider.net">See documentation</a></h3>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.box_skitter_large').skitter({
+      theme: 'minimalist',
+      dots: true,
+      preview: true,
+      numbers_align: 'center'
+    });
+  });
+</script>
+
+<div class="box_skitter box_skitter_large">
+  <ul>
+    <li>
+      <a href="#cut"><img src="images/001.jpg" class="cut" /></a>
+      <div class="label_text"><p>cut</p></div>
+    </li>
+    <li>
+      <a href="#swapBlocks"><img src="images/002.jpg" class="swapBlocks" /></a>
+      <div class="label_text"><p>swapBlocks</p></div>
+    </li>
+    <li>
+      <a href="#swapBarsBack"><img src="images/003.jpg" class="swapBarsBack" /></a>
+      <div class="label_text"><p>swapBarsBack</p></div>
+    </li>
+  </ul>
+</div>
 </div>
         <!-- comienzo del articulo-->
              <article class="html5">
