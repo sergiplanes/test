@@ -2,3 +2,6 @@
 	repositoryformatversion = 0
 	filemode = true
 	bare = true
+[remote "web"]
+	url = ssh:/u59901668@2191991sp0/test/repo/
+	fetch = +refs/heads/*:refs/remotes/web/*
