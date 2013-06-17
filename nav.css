@@ -36,10 +36,13 @@ nav li a:hover {
     border: 1px solid #ba1706;
 }
 
-nav li a:link nav li a:visited {
+nav li a:link{
     background-color: #FFFF80;
     border: 1px solid #ba1706;
 }
 
+a:visited {
+    color: red;
+}
 
 /* --fin de los estilos de la navegacion --*/
