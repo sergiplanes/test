@@ -36,4 +36,10 @@ nav li a:hover {
     border: 1px solid #ba1706;
 }
 
+nav li a:selected {
+    background-color: #FFFF80;
+    border: 1px solid #ba1706;
+}
+
+
 /* --fin de los estilos de la navegacion --*/
