@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="applypatch-msg.sample" server="test.virtualmon.com" local="130159475314898713" remote="130159494000000000" />
+<file name="commit-msg.sample" server="test.virtualmon.com" local="130159475314908717" remote="130159494000000000" />
+<file name="post-commit.sample" server="test.virtualmon.com" local="130159475314918720" remote="130159494000000000" />
+<file name="post-receive" server="test.virtualmon.com" local="130159475314928718" remote="130159494000000000" />
+<file name="post-receive.sample" server="test.virtualmon.com" local="130159475314938722" remote="130159494000000000" />
+<file name="post-recive" server="test.virtualmon.com" local="130159475314948719" remote="130159494000000000" />
+<file name="post-update.sample" server="test.virtualmon.com" local="130159475314958717" remote="130159494000000000" />
+<file name="pre-applypatch.sample" server="test.virtualmon.com" local="130159475314968718" remote="130159494000000000" />
+<file name="pre-commit.sample" server="test.virtualmon.com" local="130159475314978722" remote="130159494000000000" />
+<file name="pre-rebase.sample" server="test.virtualmon.com" local="130159475314988722" remote="130159494000000000" />
+<file name="prepare-commit-msg.sample" server="test.virtualmon.com" local="130159475314998726" remote="130159494000000000" />
+<file name="update.sample" server="test.virtualmon.com" local="130159475315008727" remote="130159494000000000" />
+</dwsync>
