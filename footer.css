@@ -1,4 +1,4 @@
-/* -- contenido del footer -- */
+/* --contenido del footer --*/
 nav.footer li a {
     color: #333;
     font-weight: normal;
@@ -7,15 +7,18 @@ nav.footer li a {
     font-size: 14px;
     text-transform: none;
 }
+
 nav.footer {
     background: none repeat scroll 0 0 #CCCCCC;
     height: 30px;
     margin: 0 0 10px;
     padding: 0 18%;
 }
-nav.footer li a:hover{
-     background:none;
-     border: none;
-     color: #CD3A0C;
+
+nav.footer li a:hover {
+    background: none;
+    border: none;
+    color: #CD3A0C;
 }
-/* -- fin del contenido del footer -- */
+
+/* --fin del contenido del footer --*/

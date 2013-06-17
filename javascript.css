@@ -1,4 +1,4 @@
-/* -- comienzo de el articulo o el javascript -- */
+/* --comienzo de el articulo o el javascript --*/
 article.javascript {
     margin: 0;
     border-bottom: 1px solid #ccc;
@@ -7,20 +7,25 @@ article.javascript {
     padding-top: 20px;
     overflow: hidden;
 }
+
 article.javascript figure {
     float: left;
     margin: 10px 10px 0 0;
     width: 180px;
 }
+
 article.javascript a img {
     border: 8px solid #ccc;
 }
+
 article.javascript a:hover img {
     border: 8px solid #de4912;
 }
+
 article.javascript h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 article.javascript h2 a {
     color: #888888;
     font-family: Arial,Helvetica,sans-serif;
@@ -29,46 +34,56 @@ article.javascript h2 a {
     margin: 5px;
     text-decoration: none;
 }
+
 article.javascript .meta {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
+
 article.javascript p.meta {
     display: block;
     background: #fafafa;
     margin: 10px 0;
     padding: 10px;
     border-radius: 10px;
+
+    -webkit-box-shadow: 1px 2px 2px #ccc;
     box-shadow: 1px 2px 2px #ccc;
 }
+
 article.javascript p.meta a {
     color: #888;
     text-decoration: none;
     font-style: italic;
 }
+
 article.javascript p.meta a:hover {
     color: #DE4912;
 }
+
 article.javascript p {
     float: left;
     width: 410px;
 }
+
 article.javascript div.leermas {
     float: left;
     margin: 23px 1px 0;
 }
-article.javascript div.leermas a{
+
+article.javascript div.leermas a {
     color: white;
-    text-decoration:none;
-    font-style:italic;
+    text-decoration: none;
+    font-style: italic;
     background: none repeat scroll 0 0 #ccc;
     border-radius: 10px 10px 10px 10px;
     margin: 5px 0;
     padding: 10px;
 }
+
 article.javascript div.leermas a:hover {
     background: none repeat scroll 0 0 #DE4912;
 }
-/* -- fin del articulo de introduccion -- */
-- See more at: http://www.tutosytips.com/hagamos-un-sitio-en-javascript-y-css3-parte-2/#sthash.4fsLnwlw.dpuf
+
+/* --fin del articulo de introduccion --*/

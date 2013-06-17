@@ -1,16 +1,14 @@
 /* -- comienzo de la barra latera o aside -- */
 aside h3 {
     background-image: url(imagenes/menu-barr.png);
-background: -moz-linear-gradient(top,  #fe7021 2%, #fcb088 21%, #fe7021 41%, #e95617 65%, #d0380c 95%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#fe7021), color-stop(21%,#fcb088), color-stop(41%,#fe7021), color-stop(65%,#e95617), color-stop(95%,#d0380c)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #fe7021 2%,#fcb088 21%,#fe7021 41%,#e95617 65%,#d0380c 95%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #fe7021 2%,#fcb088 21%,#fe7021 41%,#e95617 65%,#d0380c 95%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #fe7021 2%,#fcb088 21%,#fe7021 41%,#e95617 65%,#d0380c 95%); /* IE10+ */
-background: linear-gradient(top,  #fe7021 2%,#fcb088 21%,#fe7021 41%,#e95617 65%,#d0380c 95%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7021', endColorstr='#d0380c',GradientType=0 ); /* IE6-9 */
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
+
+    background: -webkit-linear-gradient(top, #fe7021 2%, #fcb088 21%, #fe7021 41%, #e95617 65%, #d0380c 95%);
+    background: -moz-linear-gradient(top, #fe7021 2%, #fcb088 21%, #fe7021 41%, #e95617 65%, #d0380c 95%);
+    background: -o-linear-gradient(top, #fe7021 2%, #fcb088 21%, #fe7021 41%, #e95617 65%, #d0380c 95%);
+    background: -ms-linear-gradient(top, #fe7021 2%, #fcb088 21%, #fe7021 41%, #e95617 65%, #d0380c 95%);
+    background: linear-gradient(top, #fe7021 2%, #fcb088 21%, #fe7021 41%, #e95617 65%, #d0380c 95%); /* W3C */
+-image  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7021', endColorstr='#d0380c',GradientType=0 ); /* IE6-9 */
+border-radius: 15px;
     color: #fff;
     font-size: 17px;
     font-weight: bold;
@@ -18,6 +16,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe7021', end
     padding: 10px;
     text-align: center;
 }
+
 aside div.bloques-aside {
     padding: 10px 0;
     border: 1px solid #ccc;
@@ -25,6 +24,7 @@ aside div.bloques-aside {
     border-radius: 10px;
     margin: 25px 0;
 }
+
 aside li.publicidad {
     width: 152px;
     display: block;
@@ -32,47 +32,65 @@ aside li.publicidad {
     background: none !important;
     margin: 3px;
 }
- 
+
 aside ul {
     overflow: hidden;
 }
+
 aside ul.categoria li a {
     text-decoration: none;
     font-size: 16px;
     color: #666;
 }
+
 aside ul.categoria li a:hover {
     color: #DE4912;
 }
- 
+
 aside ul.categoria li {
     margin: 10px 30px;
     padding: 0 10px 5px 0;
     border-bottom: 1px dotted #555;
 }
+
 .searchform {
+    background: -webkit-linear-gradient(center top , #FFFFFF, #EDEDED) repeat scroll 0 0 transparent;
     background: -moz-linear-gradient(center top , #FFFFFF, #EDEDED) repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(center top , #FFFFFF, #EDEDED) repeat scroll 0 0 transparent;
+    background: -ms-linear-gradient(center top , #FFFFFF, #EDEDED) repeat scroll 0 0 transparent;
+    background: linear-gradient(center top , #FFFFFF, #EDEDED) repeat scroll 0 0 transparent;
     border: 1px solid #D2D2D2;
     border-radius: 2em 2em 2em 2em;
+
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     display: inline-block;
     padding: 3px 5px;
     margin: 0 25px;
 }
+
 .searchform input {
     font: 12px/100% Arial,Helvetica,sans-serif;
 }
+
 .searchform .searchfield {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #BCBBBB;
     border-radius: 2em 2em 2em 2em;
+
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
     outline: medium none;
     padding: 6px 6px 6px 8px;
     width: 202px;
 }
+
 .searchform .searchbutton {
+    background: -webkit-linear-gradient(center top , #9E9E9E, #454545) repeat scroll 0 0 transparent;
     background: -moz-linear-gradient(center top , #9E9E9E, #454545) repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(center top , #9E9E9E, #454545) repeat scroll 0 0 transparent;
+    background: -ms-linear-gradient(center top , #9E9E9E, #454545) repeat scroll 0 0 transparent;
+    background: linear-gradient(center top , #9E9E9E, #454545) repeat scroll 0 0 transparent;
     border: 1px solid #494949;
     border-radius: 2em 2em 2em 2em;
     color: #FFFFFF;
@@ -81,13 +99,16 @@ aside ul.categoria li {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
     width: 27px;
 }
+
 aside div.bloques-aside p.info {
     margin: 10px;
 }
+
 div.bloques-aside p.info img {
     width: 100px;
     height: 100px;
     float: left;
     margin: 5px 10px;
 }
+
 /* -- fin de la barra latera o aside -- */
