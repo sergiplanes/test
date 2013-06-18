@@ -1,0 +1,47 @@
+<style>
+body{
+padding:0;
+margin:0 auto;
+background:url(imagenes/bck.jpg) repeat-x;
+}
+.principal{
+padding:0;
+margin:0 auto;
+width:900px;
+background:#cccccc;
+border-right: 1px solid #000000;
+border-left: 1px solid #000000;
+}
+.cuadros{
+background:#ffffff; height:400px;
+border-right: 1px solid #000000;
+border-left: 1px solid #000000;
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
+}
+.link{
+height:20px;
+}
+A:link {
+FONT-SIZE: 13px;
+COLOR:#FF3300;
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif;
+text-decoration: none;
+}
+A:visited {
+FONT-SIZE: 13px;
+COLOR:#FF3300;
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif;
+TEXT-DECORATION: none;
+}
+A:active {
+FONT-SIZE: 13px;
+COLOR:#FF3300;
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif;
+TEXT-DECORATION: none;
+}
+A:hover {
+font-size: 13px;
+color: #7ed9ff;
+font-family:  arial, helvetica, verdana, sans-serif;
+}
